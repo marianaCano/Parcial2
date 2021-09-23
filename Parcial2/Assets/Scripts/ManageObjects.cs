@@ -5,9 +5,10 @@ using UnityEngine;
 public class ManageObjects : MonoBehaviour
 
 {
-
     public DataSO channel;
     public List<GameObject> objects = new List<GameObject>();
+
+        
     void AddObject(GameObject obj)
     {
         objects.Add(obj);
@@ -18,9 +19,9 @@ public class ManageObjects : MonoBehaviour
         objects.Remove(obj);
     }
     
-    public void ObjectUpdate(GameObject obj)
+    public void CheckObjects(GameObject obj) //Al presionar el boton...
     {
-        if (objects.Contains(obj)) RemoveObject(obj); //Si el objeto esa en la lista, borrelo.
+        if (objects.Contains(obj)) RemoveObject(obj); //Si el objeto esta en la lista, borrelo.
         else AddObject(obj); //Si no, agreguelo
     }
 
