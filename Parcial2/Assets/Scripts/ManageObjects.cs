@@ -9,7 +9,7 @@ public class ManageObjects : MonoBehaviour
 
     public void CheckObjects(GameObject obj) //Al presionar el boton...
     {
-        if (objects.Contains(obj)) RemoveObject(obj); //Si el objeo esa en la lista, borrelo.
+        if (objects.Contains(obj)) RemoveObject(obj); //Si el objeto esta en la lista, borrelo.
         else AddObject(obj); //Si no, agreguelo
     }
     void AddObject(GameObject obj)
