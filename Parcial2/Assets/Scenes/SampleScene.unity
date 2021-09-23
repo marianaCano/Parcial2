@@ -1267,8 +1267,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1774297930}
-        m_TargetAssemblyTypeName: ChangeObjectColor, Assembly-CSharp
-        m_MethodName: HandleColor
+        m_TargetAssemblyTypeName: ChangeObject, Assembly-CSharp
+        m_MethodName: ChangeObjectBehaviour
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1629,6 +1629,7 @@ GameObject:
   - component: {fileID: 1774297929}
   - component: {fileID: 1774297928}
   - component: {fileID: 1774297930}
+  - component: {fileID: 1774297931}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -1675,9 +1676,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586b9e8a339c7a348b8a123d94f65b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1774297931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774297927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0786d76fb6c749d41a84435ee5b7d14f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   chaMaterial: {fileID: 2100000, guid: 5d0afef4b4b551a4c9f459d9c882280f, type: 2}
   defMaterial: {fileID: 2100000, guid: ebc3175fb9539574982f022380dfa81c, type: 2}
-  MO: {fileID: 0}
   renders: []
 --- !u!1 &1986126662
 GameObject:
