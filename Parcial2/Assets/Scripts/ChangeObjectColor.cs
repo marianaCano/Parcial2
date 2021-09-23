@@ -22,8 +22,8 @@ public class ChangeObjectColor : MonoBehaviour
         CheckObjects(); //Checkee que objetos se cambiara el color
         foreach (MeshRenderer render in renders) //Para cada render
         {
-            if (!hasChanged) ChangeColor(render); //si no se han cambiado todos siga cambiando colores.
-            else RevertColor(render); //Si ya se cambio y se preciona denuevo el boton, regreselos al original.
+            if (!hasChanged) ChangeColor(render, chaMaterial); //si no se han cambiado todos siga cambiando colores.
+            else ChangeColor(render, defMaterial); //Si ya se cambio y se preciona denuevo el boton, regreselos al original.
         }
         hasChanged = !hasChanged;
     }
@@ -36,15 +36,8 @@ public class ChangeObjectColor : MonoBehaviour
         }
      }
 
-    //Fucionar estos 2 metodos en una sola cosa para el principio de extender sin modificar
-    void ChangeColor(MeshRenderer render)
+    void ChangeColor(MeshRenderer render, Material material)
     {
-        render.material = chaMaterial;
+        render.material = material;
     }
-    void RevertColor(MeshRenderer render)
-    {
-        render.material = defMaterial;
-
-    }
-
 }
