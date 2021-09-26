@@ -5,10 +5,9 @@ using UnityEngine;
 
 public class vacio : Interfaces
 {
+    public Animator animator { get; set; }
     public void Execute(State states)
     {
-        Debug.Log("MALPARIDA COSA3");
-    }
 
-  
+    }
 }

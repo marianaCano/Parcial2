@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class state_rotando : Interfaces
 {
+    public Animator animator { get; set; }
     public void Execute(State states)
     {
-        states.transform.Rotate(new Vector3(20f, 20f, 20f) * Time.deltaTime);
-        Debug.Log("MALPARIDA COSA");
+        animator.SetBool("IsFloating", true);
     }
 }

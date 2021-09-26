@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface Interfaces
 {
-    void Execute(State states);
+    public Animator animator {get; set;}
+    void Execute(State states); 
 }

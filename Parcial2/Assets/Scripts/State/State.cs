@@ -9,25 +9,23 @@ public class State : MonoBehaviour
     {
         stateInterfaces = new vacio();
         stateInterfaces.Execute(this);
-        Debug.Log("ME VOY A MATAR");
     }
     public void Vacio()
     {
         stateInterfaces = new vacio();
         stateInterfaces.Execute(this);
-        Debug.Log("ME VOY A MATAR");
     }
     public void Quieto()
     {
-        stateInterfaces = new state_rotando();
+        stateInterfaces = new state_quieto();
+        stateInterfaces.animator = GetComponent<Animator>();
         stateInterfaces.Execute(this);
-        Debug.Log("ME VOY A MATAR");
     }
     public void Rotar()
     {
         stateInterfaces = new state_rotando();
+        stateInterfaces.animator = GetComponent<Animator>();
         stateInterfaces.Execute(this);
-        Debug.Log("ME VOY A MATAR");
     }
 
    

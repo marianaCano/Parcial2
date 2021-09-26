@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class state_quieto : Interfaces
 {
+    public Animator animator { get; set; }
     public void Execute(State states)
     {
-       states.transform.Rotate(new Vector3(0f, 0f, 0f) * Time.deltaTime);
-        Debug.Log("MALPARIDA COSA2");
+        animator.SetBool("IsFloating", false);
     }
 }
