@@ -9,7 +9,7 @@ public class DataSO : ScriptableObject
    
     public event UnityAction<GameObject> listChanged;
 
-    public void ListChange(GameObject obj) {
+    public void ObjectChange(GameObject obj) {
 
         if (listChanged != null) {
             listChanged(obj);

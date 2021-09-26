@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeObject : MonoBehaviour
 {
-
+    public DataAO channel;
     private IChangeObject Ico;
 
     private void Start()
@@ -17,7 +17,16 @@ public class ChangeObject : MonoBehaviour
     {
         Ico.HandleObject();
     }
-   
+
+    private void OnEnable()
+    {
+        channel.objectChanged += ChangeObjectBehaviour;
+    }
+
+    private void OnDisanable()
+    {
+        channel.objectChanged -= ChangeObjectBehaviour;
+    }
 }
 
 
