@@ -24,18 +24,22 @@ public class ChangeSize : MonoBehaviour , IChangeObject
         foreach (Transform trns in transforms)
         {
             if (!sized)
-                _ChangeSize(false);
+                _ChangeSize(false,trns);
             else
-                _ChangeSize(true);
+                _ChangeSize(true,trns);
         }
         sized = !sized;
     }
 
-    public void _ChangeSize(bool signo)
+    public void _ChangeSize(bool signo, Transform trns)
     {
         if (signo)
-            transform.localScale = transform.localScale + tamano;
+        {
+            trns.localScale = trns.localScale - tamano;
+        }
         else
-            transform.localScale = transform.localScale - tamano;
+        {
+            trns.localScale = trns.localScale + tamano;
+        }
     }
 }
