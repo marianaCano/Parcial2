@@ -5,11 +5,6 @@ using UnityEngine;
 public class State : MonoBehaviour
 {
     private Interfaces stateInterfaces;
-    void Awake()
-    {
-        stateInterfaces = new vacio();
-        stateInterfaces.Execute(this);
-    }
     public void Vacio()
     {
         stateInterfaces = new vacio();
