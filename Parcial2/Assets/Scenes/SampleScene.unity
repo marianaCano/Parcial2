@@ -1265,7 +1265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 410}
+  m_AnchoredPosition: {x: 3, y: 351}
   m_SizeDelta: {x: 306.9371, y: 88.5931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032801163
@@ -1410,11 +1410,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1677,6 +1677,7 @@ GameObject:
   - component: {fileID: 1774297928}
   - component: {fileID: 1774297930}
   - component: {fileID: 1774297931}
+  - component: {fileID: 1774297932}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -1739,6 +1740,19 @@ MonoBehaviour:
   chaMaterial: {fileID: 2100000, guid: 5d0afef4b4b551a4c9f459d9c882280f, type: 2}
   defMaterial: {fileID: 2100000, guid: ebc3175fb9539574982f022380dfa81c, type: 2}
   renders: []
+--- !u!114 &1774297932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774297927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ca4f8490aad9448b4d37d529593301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transforms: []
 --- !u!1 &1986126662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,6 +1908,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 206.57172}
-  m_SizeDelta: {x: 518.4122, y: 262.0334}
+  m_AnchoredPosition: {x: 3, y: 169.202}
+  m_SizeDelta: {x: 518.412, y: 187.295}
   m_Pivot: {x: 0.5, y: 0.5}
