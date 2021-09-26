@@ -1064,7 +1064,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 130820805}
@@ -1197,7 +1197,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 100378206}
@@ -1603,9 +1603,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1774297930}
-        m_TargetAssemblyTypeName: ChangeObject, Assembly-CSharp
-        m_MethodName: ChangeObjectBehaviour
+      - m_Target: {fileID: 11400000, guid: 5eb36306808ada748a120d13d196645c, type: 2}
+        m_TargetAssemblyTypeName: DataAO, Assembly-CSharp
+        m_MethodName: objectChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1908,7 +1908,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1020238665}
@@ -2015,6 +2015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586b9e8a339c7a348b8a123d94f65b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  channel: {fileID: 11400000, guid: 5eb36306808ada748a120d13d196645c, type: 2}
 --- !u!114 &1774297931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2024,10 +2025,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1774297927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f22b39ccfc74c742a35c378ac6349fe, type: 3}
+  m_Script: {fileID: 11500000, guid: 0786d76fb6c749d41a84435ee5b7d14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudSources: []
+  chaMaterial: {fileID: 2100000, guid: 5d0afef4b4b551a4c9f459d9c882280f, type: 2}
+  defMaterial: {fileID: 2100000, guid: ebc3175fb9539574982f022380dfa81c, type: 2}
+  renders: []
 --- !u!1 &1986126662
 GameObject:
   m_ObjectHideFlags: 0
