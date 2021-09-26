@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 100378208}
   - component: {fileID: 100378207}
   - component: {fileID: 100378212}
+
   m_Layer: 0
   m_Name: Objeto1
   m_TagString: Untagged
@@ -144,18 +145,114 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!114 &100378207
 MonoBehaviour:
+
+--- !u!82 &100378207
+AudioSource:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100378206}
   m_Enabled: 1
+
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64c7c086346fb1d4fa76b61d28ee7818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f2aae589fa8e1254f87e46b3e540f0cf, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.32
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+
 --- !u!65 &100378208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -264,7 +361,10 @@ GameObject:
   - component: {fileID: 130820808}
   - component: {fileID: 130820807}
   - component: {fileID: 130820806}
+
   - component: {fileID: 130820811}
+
+
   m_Layer: 0
   m_Name: Objeto3
   m_TagString: Untagged
@@ -272,18 +372,114 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!114 &130820806
 MonoBehaviour:
+
+--- !u!82 &130820806
+AudioSource:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130820805}
   m_Enabled: 1
+
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64c7c086346fb1d4fa76b61d28ee7818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 956e46457805b66498bfc33aa97953dd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.32
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+
 --- !u!65 &130820807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -449,7 +645,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Change color
+  m_Text: Activate
 --- !u!222 &208927537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -981,7 +1177,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 130820805}
@@ -1114,7 +1310,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 100378206}
@@ -1258,7 +1454,9 @@ GameObject:
   - component: {fileID: 1020238667}
   - component: {fileID: 1020238666}
   - component: {fileID: 1020238670}
+
   - component: {fileID: 1020238671}
+
   m_Layer: 0
   m_Name: Objeto2
   m_TagString: Untagged
@@ -1342,8 +1540,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!114 &1020238670
 MonoBehaviour:
+
+--- !u!82 &1020238670
+AudioSource:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1373,6 +1576,94 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3133766e1c0e06a4c9c9a94092b9fd48, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.32
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1032801161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 410}
+  m_AnchoredPosition: {x: 3, y: 351}
   m_SizeDelta: {x: 306.9371, y: 88.5931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032801163
@@ -1456,9 +1747,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1774297930}
-        m_TargetAssemblyTypeName: ChangeObject, Assembly-CSharp
-        m_MethodName: ChangeObjectBehaviour
+      - m_Target: {fileID: 11400000, guid: 5eb36306808ada748a120d13d196645c, type: 2}
+        m_TargetAssemblyTypeName: DataAO, Assembly-CSharp
+        m_MethodName: objectChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1597,11 +1888,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1804,7 +2095,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e4f1580a42cc0b04784c939a430d7bdc, type: 2}
         m_TargetAssemblyTypeName: DataSO, Assembly-CSharp
-        m_MethodName: ListChange
+        m_MethodName: ObjectChange
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1020238665}
@@ -1911,6 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586b9e8a339c7a348b8a123d94f65b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  channel: {fileID: 11400000, guid: 5eb36306808ada748a120d13d196645c, type: 2}
 --- !u!114 &1774297931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,6 +2373,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 206.57172}
-  m_SizeDelta: {x: 518.4122, y: 262.0334}
+  m_AnchoredPosition: {x: 3, y: 169.202}
+  m_SizeDelta: {x: 518.412, y: 187.295}
   m_Pivot: {x: 0.5, y: 0.5}
